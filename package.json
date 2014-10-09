@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/gregpardo/node-announcer",
   "dependencies": {
-    "agenda": "^0.6.19",
+    "human-interval": "^0.1.4",
     "unirest": "^0.2.7"
   }
 }
