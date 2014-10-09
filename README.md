@@ -1,4 +1,4 @@
-monitor-announcer
+Announcer
 =================
 
-Node.js module that announces it's state to a server
+Periodically announces JSON content to a remote server. Can be useful for health checking apps
