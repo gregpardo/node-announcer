@@ -1,0 +1,28 @@
+{
+  "name": "monitor-announcer",
+  "version": "0.0.0",
+  "description": "Periodically announces a servers state to a remote server",
+  "main": "lib/announcer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gregpardo/monitor-announcer.git"
+  },
+  "keywords": [
+    "announce",
+    "server",
+    "health"
+  ],
+  "author": "Greg Pardo <gregpardo@gmail.com> (http://gregpardo.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregpardo/monitor-announcer/issues"
+  },
+  "homepage": "https://github.com/gregpardo/monitor-announcer",
+  "dependencies": {
+    "agenda": "^0.6.19",
+    "unirest": "^0.2.7"
+  }
+}
