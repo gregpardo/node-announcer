@@ -1,6 +1,6 @@
 {
   "name": "announcer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Periodically announces JSON content to a remote server. Can be useful for health checking apps",
   "main": "lib/announcer.js",
   "scripts": {
