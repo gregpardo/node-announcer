@@ -4,6 +4,28 @@ Announcer
 Periodically announces JSON content to a remote server. Can be useful for health checking apps
 
 
+## Using the auto instance 
+
+The auto instance provides a quick method of using node annoucer to
+check in with a monitoring server. Set the appropriate ENV variables and 
+start it.
+
+### ENV Variables
+
+The announcement URL to make PUT request to
+    ANNOUNCE_URL=http://localhost:5000/api/Instances
+
+The ID of the instance to post to
+    ANNOUNCE_ID=5
+
+The interval in seconds to check in
+    ANNOUNCE_INTERVAL=10
+
+Then require the auto instance and start it
+
+    var announce = require('announcer').autoInstance();
+    announce.start();
+ 
 ## Example
 
     var Announcer = require('announcer');
