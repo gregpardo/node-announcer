@@ -13,12 +13,15 @@ start it.
 ### ENV Variables
 
 The announcement URL to make PUT request to
+
     ANNOUNCE_URL=http://localhost:5000/api/Instances
 
 The ID of the instance to post to
+
     ANNOUNCE_ID=5
 
 The interval in seconds to check in
+
     ANNOUNCE_INTERVAL=10
 
 Then require the auto instance and start it
